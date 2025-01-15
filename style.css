@@ -1,0 +1,187 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Bungee+Spice&family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap'); */
+
+@font-face {
+    font-family: 'BungeeSpice';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/BungeeSpice-Regular.woff2') format('woff2'),
+    url('./assets/BungeeSpice-Regular.woff') format('woff'),
+    url('./assets/BungeeSpice-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 600;
+    src:
+    /* url('./assets/Montserrat-SemiBold.woff2') format('woff2'),
+    url('./assets/Montserrat-SemiBold.woff') format('woff'), */
+    url('./assets/Montserrat-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 900;
+    src: 
+    /* url('./assets/Montserrat-Black.woff2') format('woff2'),
+    url('./assets/Montserrat-Black.woff') format('woff'), */
+    url('./assets/Montserrat-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GreatVibes';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/GreatVibes-Regular.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.landing-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#mestos-logo{
+    margin-bottom: -0.2em;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    /* text-align: center; */
+    color: white;
+    z-index: 1;
+}
+
+/* #notify-btn{
+    margin-top: 50em;
+} */
+
+.end-btns{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 12px;
+}
+
+/* font (use font-face at head)*/
+.ft-bungee-spice-regular {
+    font-family: 'BungeeSpice', sans-serif;
+    font-size: 135px;
+    font-optical-sizing: auto;
+}
+
+.ft-montserrat-main {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 90px;
+    font-optical-sizing: auto;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.ft-montserrat-sub {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 27px;
+    font-optical-sizing: auto;
+    color: coral;
+}
+
+.ft-great-vibes {
+    font-family: "GreatVibes", cursive;
+    color: black;
+}
+
+/* media queries */
+
+/* above 768px will be full sizes */
+
+@media (max-width: 768px) {
+    .ft-bungee-spice-regular {
+        font-size: 120px; /* (4x30 size) */
+    }
+    .ft-montserrat-main{
+        font-size: 80px; /* (4x20 size) */
+    }
+    .ft-montserrat-sub{
+        font-size: 24px; /* (4x6 size) */
+    }
+    .about-h3{
+        font-size: 24px; /* (4x6 size) */
+    }
+}
+
+@media (max-width: 576px) {
+    .ft-bungee-spice-regular {
+        font-size: 105px; /* (3.5x30 size) */
+    }
+    .ft-montserrat-main{
+        font-size: 70px; /* (3.5x20 size) */
+    }
+    .ft-montserrat-sub{
+        font-size: 21px; /* (3.5x6 size) */
+    }
+    .about-h3{
+        font-size: 21px; /* (3.5x6 size) */
+    }
+}
+
+@media (max-width: 440px) {
+    .ft-bungee-spice-regular {
+        font-size: 90px; /* (3x30 size) */
+    }
+    .ft-montserrat-main{
+        font-size: 60px; /* (3x20 size) */
+    }
+    .ft-montserrat-sub{
+        font-size: 18px; /* (3x6 size) */
+    }
+    .about-h3{
+        font-size: 18px; /* (3x6 size) */
+    }
+}
+
+@media (max-width: 400px) {
+    .ft-bungee-spice-regular {
+        font-size: 70px; /* (2.5x30 size) */
+    }
+    .ft-montserrat-main{
+        font-size: 50px; /* (2.5x20 size) */
+    }
+    .ft-montserrat-sub{
+        font-size: 15x; /* (2.5x6 size) */
+    }
+    .about-h3{
+        font-size: 15px; /* (2.5x6 size) */
+    }
+}
+
+@media (max-width: 375px) {
+    .ft-bungee-spice-regular {
+        font-size: 60px; /* (2x30 size) */
+    }
+    .ft-montserrat-main{
+        font-size: 40px; /* (2x20 size) */
+    }
+    .ft-montserrat-sub{
+        font-size: 12px; /* (2x6 size) */
+    }
+    .about-h3{
+        font-size: 12px; /* (2x6 size) */
+    }
+}

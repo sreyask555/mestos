@@ -1,0 +1,1 @@
+Mestos is a mess service using centralized cloud kitchen as an inventory, based in Trivandrum.
